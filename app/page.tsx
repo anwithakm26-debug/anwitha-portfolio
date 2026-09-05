@@ -788,8 +788,7 @@ export default function Home() {
           Let's Connect & Build Together
         </h2>
         <p className="text-slate-600 max-w-md mx-auto mb-8">
-          Open to entry-level software engineering, web development, and data
-          roles.
+         Open to entry-level web development, cloud, and IT-related roles
         </p>
 
         <div className="flex justify-center items-center gap-4 flex-wrap">

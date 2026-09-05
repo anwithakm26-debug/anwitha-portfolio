@@ -1,7 +1,6 @@
-```tsx
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import AnimatedCharacter from "./AnimatedCharacter";
 
 export default function IntroExperience() {
@@ -12,7 +11,7 @@ export default function IntroExperience() {
   return (
     <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
       <div className="text-center z-10 max-w-xl">
-        {/* Character */}
+
         <AnimatedCharacter
           isSpeaking={isSpeaking}
           isWaving={isWaving}
@@ -21,7 +20,12 @@ export default function IntroExperience() {
 
         <div className="mt-8 space-y-4">
           <p className="text-xl text-purple-200 font-medium">
-            Stage 1 & 2 Preview: Character Idle + Blink + Wave State
+            Welcome to my portfolio
+          </p>
+
+          <p className="text-gray-300">
+            I&apos;m Anwitha, a passionate developer who loves creating
+            modern and interactive web experiences.
           </p>
 
           <div className="flex gap-4 justify-center pt-4 flex-wrap">
@@ -51,4 +55,3 @@ export default function IntroExperience() {
     </div>
   );
 }
-```
