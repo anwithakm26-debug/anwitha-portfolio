@@ -11,12 +11,15 @@ export default function IntroExperience() {
     <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
       <div className="text-center z-10 max-w-xl">
         {/* Character */}
-        <AnimatedCharacter
-          isSpeaking={isSpeaking}
-          isWaving={isWaving}
-          isSmiling={true}
-        />
+       interface AvatarProps {
+  isSpeaking?: boolean;
+  isWaving?: boolean;
+  isSmiling?: boolean;
+}
 
+const AvatarComponent = ({ isSpeaking, isWaving, isSmiling }: AvatarProps) => {
+  // ...
+};
         <div className="mt-8 space-y-4">
           <p className="text-xl text-purple-200 font-medium">
             Stage 1 & 2 Preview: Character Idle + Blink + Wave State
